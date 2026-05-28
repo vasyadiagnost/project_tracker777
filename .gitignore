@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build artefacts
+build/
+dist/
+*.spec
+
+# Runtime data / local databases
+# The app creates data/project_tracker.db on first launch.
+data/*
+!data/.gitkeep
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+~$*
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

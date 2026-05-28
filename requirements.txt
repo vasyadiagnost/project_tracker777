@@ -1,0 +1,4 @@
+customtkinter
+SQLAlchemy
+openpyxl
+reportlab
